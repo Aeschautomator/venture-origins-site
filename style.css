@@ -1,6 +1,5 @@
 body, html {
-    margin: 0;
-    padding: 0;
+
 }
 
 video {
@@ -35,7 +34,7 @@ video {
     background:grey;
     opacity:80%;
     color:navy;
-    text-size-adjust: 16;
+    text-size-adjust: 32;
 }
 .image{
     z-index: 2;
@@ -49,6 +48,12 @@ video {
 .p-2 {
     z-index:3;
     color: white;
+    
+}
+.p-5 {
+    z-index:3;
+    color: white;
+    font-size: 16px;
 }
 .order-3 {
     z-index:3;
@@ -78,16 +83,22 @@ video {
 .img-responsive {
     z-index: 3;
     height:50%;
-    width:80%;
+    width:50%;
 
 }
 
 .card {
     text-align:center;
+    border-radius: 5px;
     grid-template-rows: max-content 200px 1fr;
+    margin-top:3%;
+    text-decoration: crimson;
+    
+
 }
+
 .card:hover {
-    opacity: -0.5;
+    
 }
 
 .video2 {
@@ -95,3 +106,8 @@ video {
     z-index: 3;
 }
 
+.h-5 {
+    z-index:3;
+    color: white;
+    font-size: 16px;
+}
